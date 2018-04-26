@@ -1,0 +1,10 @@
+# Context path to install this application on
+app.path=/hello
+
+# Tomcat installation directory
+catalina.home=/usr/share/tomcat9
+
+# Manager webapp url, username and password
+manager.url=http://localhost:8080/manager/text
+manager.username=
+manager.password=
