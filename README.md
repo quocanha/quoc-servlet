@@ -73,10 +73,6 @@ that would allow Tomcat to access the build folder.
 Deploying the war file manually within the Tomcat manager works as intended 
 though.
 
-### Ant install does not work
-I posted a stackoverflow question regarding this.
-
-
 # Todo
 - Read up on JavaServer Page (JSP).
 - Read up on ServletContext.
