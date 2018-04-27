@@ -75,3 +75,11 @@ though.
 
 ### Ant install does not work
 I posted a stackoverflow question regarding this.
+
+
+# Todo
+- Read up on JavaServer Page (JSP).
+- Read up on ServletContext.
+- Read up on ServletConfig.
+- Implement a Front Controller Pattern Servlet.
+    - http://www.baeldung.com/java-front-controller-pattern
