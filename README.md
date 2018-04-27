@@ -12,6 +12,8 @@ Make sure both Tomcat and Ant are installed. Include the jar under
 `${CATALINA_HOME}/lib/servlet-api.jar` into the classpath (this file is normally 
 part of Java EE).
 
+Then simply run (`ant all`,) `ant dist`, `ant install`.
+
 ## Ant command
 To clean
 
