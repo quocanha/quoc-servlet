@@ -130,7 +130,7 @@
     <property name="build.home"    value="${basedir}/build"/>
     <property name="catalina.home" value="."/> <!-- Override in build.properties -->
     <!--<property name="dist.home"     value="${basedir}/dist"/>-->
-    <property name="dist.home"     value="/tmp/public/build"/>
+    <property name="dist.home"     value="/tmp/public/dist"/>
     <property name="docs.home"     value="${basedir}/docs"/>
     <property name="manager.url"   value="http://localhost:8080/manager/text"/>
     <property name="src.home"      value="${basedir}/src"/>
@@ -368,7 +368,7 @@
                 username="${manager.username}"
                 password="${manager.password}"
                 path="${app.path}"
-                localWar="${dist.home}" />
+                localWar="${dist.home}/${app.name}-${app.version}.war" />
                 <!--localWar="file://${build.home}"/>-->
                 <!--
                 See:
