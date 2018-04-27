@@ -56,22 +56,7 @@ Refer to the `build.xml` file for more information.
 - https://www.ntu.edu.sg/home/ehchua/programming/java/JavaServlets.html
 
 ## Problems
-### Ant install with Tomcat provided build.xml
-When running `ant install`, I'm getting the following error:
-```
-INFO: Manager: install: Installing web application '/test' from 'file:///path/to/quoc-servlet/build'
-      jsvc.exec[584]: java.io.FileNotFoundException: /path/to/quoc-servlet/build (Permission denied)
-``` 
-Which is explained here:
-
-https://stackoverflow.com/questions/3579626/ant-install-to-deploy-tomcat-webapp-failing-with-permission-problem
-
-But I'm unsure about what normal behaviour would be, since changing the 
-${build.home} permissions to 777 does not work, even though I would think
-that would allow Tomcat to access the build folder.
-
-Deploying the war file manually within the Tomcat manager works as intended 
-though.
+None left!
 
 # Todo
 - Read up on JavaServer Page (JSP).
